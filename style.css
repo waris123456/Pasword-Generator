@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 1.0em;
+    font-weight: 600;
+    align-items: center;
+}
+.passwordGeneratorBox{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12%;
+    height: 210px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.passwordBtn{
+    padding: 12px;
+    width: 91%;
+    font-size: 1.0em;
+    font-weight: 600;
+    margin: 20px;
+}
+.answer{
+    width: 90%;
+    height: 37px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+.lengthDiv{
+    width: 90%;
+    height: 37px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 2px;
+    text-align: center;
+}
